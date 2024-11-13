@@ -1,6 +1,6 @@
 function Order() {
     return (
-        <a href="">Order</a>
+        <a href="" className="nav-style">Order</a>
     )
 }
 

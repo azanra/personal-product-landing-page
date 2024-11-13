@@ -1,6 +1,6 @@
 function Product() {
     return(
-        <a href="">Products</a>
+        <a href="" className="nav-style">Products</a>
     )
 }
 

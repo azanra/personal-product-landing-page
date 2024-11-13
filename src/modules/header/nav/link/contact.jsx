@@ -1,6 +1,6 @@
 function Contact() {
     return (
-        <a href="">Contacts</a>
+        <a href="" className="nav-style">Contacts</a>
     )
 }
 

@@ -1,6 +1,6 @@
 function About() {
     return (
-        <a href="">About</a>
+        <a href="" className="nav-style">About</a>
     )
 }
 
