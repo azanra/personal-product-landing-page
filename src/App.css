@@ -6,6 +6,7 @@
     --container-bg-color: rgb(236, 236, 236);
 
     --element-top-margin: 80px;
+    --element-container-gap: 200px;
 
     --nav-section-margin-right: 80px;
     --image-margin-left: 120px;
@@ -22,14 +23,22 @@
     --order-color: rgb(79, 76, 177);
     --order-text-font-size: 12.5px;
     --order-btn-padding: 15px 50px;
+    --order-text-weight: 600;
     --order-section-padding: 75px 100px;
+    --order-font-size: 15px;
 
     --header-margin: 10px 0px 100px 0px; 
 
+    --about-image-width: 350px;
+    --about-image-height: 200px;
+    --about-container-margin: 150px;
+    --about-container-width: 80%;
+    --about-padding: 75px 125px;
 }
 
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -81,13 +90,18 @@ body {
     border-radius: var(--element-border-radius);
     padding: var(--order-btn-padding);
     color: var(--white-text-color);
-    font-weight: 600;
-    font-size: 15px
+    font-weight: var(--order-text-weight);
+    font-size: var(--order-font-size);
 }
 
 .flex-space-between {
     display: flex;
     justify-content: space-between;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
 }
 
 .flex-align-items {
@@ -114,4 +128,17 @@ body {
 
 .logo-section {
     margin-left: var(--image-margin-left);
+}
+
+.about-image {
+    width: var(--about-image-width);
+    height: var(--about-image-height);
+}
+
+.about-container {
+    padding: var(--about-padding);
+    width: var(--about-container-width);
+    margin-left: var(--about-container-margin);
+    border-radius: var(--element-border-radius);
+    margin-top: var(--element-container-gap);
 }
