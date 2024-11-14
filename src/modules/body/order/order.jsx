@@ -4,7 +4,7 @@ import { OrderImage } from "./image/image";
 
 function Order() {
     return (
-        <div className="order-section">
+        <div className="order-section flex-container container-bg-color">
             <div>
                 <HeaderOrder/>
                 <OrderButton/>

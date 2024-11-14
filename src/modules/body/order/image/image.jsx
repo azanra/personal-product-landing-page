@@ -1,7 +1,7 @@
 function OrderImage() {
     return (
-        <div>
-            <div></div>
+        <div className="order-image-container">
+            <div className="order-image"></div>
         </div>
     )
 }

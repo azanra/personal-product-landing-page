@@ -1,4 +1,10 @@
 :root {
+    --element-border-radius: 5px;
+
+    --white-text-color: rgb(255, 255, 255);
+
+    --container-bg-color: rgb(236, 236, 236);
+
     --nav-section-margin-right: 80px;
     --image-margin-left: 120px;
 
@@ -6,10 +12,57 @@
     --nav-margin-right: 40px;
     --nav-hover: blue;
     --nav-active: orange;
+
+    --order-image-width: 500px;
+    --order-image-height: 500px;
+    --order-image-bg-color: rgb(204, 204, 204);
+
+    --order-color: rgb(79, 76, 177);
+    --order-text-font-size: 12.5px;
+    --order-btn-padding: 10px 35px;
 }
 
-.div-container,
-.flex-align-items {
+body {
+    font-family: "Montserrat" ;
+}
+
+.container-bg-color {
+    background-color: var(--container-bg-color);
+}
+
+.flex-container {
+    display: flex;
+}
+
+.order-image {
+    width: var(--order-image-width);
+    height: var(--order-image-height);
+    background-color: var(--order-image-bg-color);
+    border-radius: var(--element-border-radius);
+}
+
+.colored-span-text {
+    color: var(--order-color);
+}
+
+.order-text {
+    font-size: var(--order-text-font-size);
+}
+
+.order-text-container {
+    width: var(--order-image-width);
+}
+
+.order-btn {
+    background-color: var(--order-color);
+    border: 1px solid white;
+    border-radius: var(--element-border-radius);
+    padding: var(--order-btn-padding);
+    color: var(--white-text-color);
+    font-weight: bold;
+}
+
+.flex-space-between {
     display: flex;
     justify-content: space-between;
 }

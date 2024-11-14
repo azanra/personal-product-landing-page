@@ -1,7 +1,7 @@
 function OrderButton() {
     return (
         <div>
-            <button>Order</button>
+            <button className="order-btn">Order</button>
         </div>
     )
 }
