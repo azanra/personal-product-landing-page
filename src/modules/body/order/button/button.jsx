@@ -1,7 +1,7 @@
 function OrderButton() {
     return (
         <div>
-            <button className="order-btn">Order</button>
+            <button className="order-btn element-top-gap">Order</button>
         </div>
     )
 }

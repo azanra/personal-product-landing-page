@@ -5,6 +5,8 @@
 
     --container-bg-color: rgb(236, 236, 236);
 
+    --element-top-margin: 80px;
+
     --nav-section-margin-right: 80px;
     --image-margin-left: 120px;
 
@@ -19,11 +21,23 @@
 
     --order-color: rgb(79, 76, 177);
     --order-text-font-size: 12.5px;
-    --order-btn-padding: 10px 35px;
+    --order-btn-padding: 15px 50px;
+    --order-section-padding: 75px 100px;
+
+    --header-margin: 10px 0px 100px 0px; 
+
+}
+
+* {
+    margin: 0;
 }
 
 body {
     font-family: "Montserrat" ;
+}
+
+.header-section {
+    margin: var(--header-margin);
 }
 
 .container-bg-color {
@@ -32,6 +46,14 @@ body {
 
 .flex-container {
     display: flex;
+}
+
+.element-top-gap {
+    margin-top: var(--element-top-margin);
+}
+
+.order-section {
+    padding: var(--order-section-padding);
 }
 
 .order-image {
@@ -59,7 +81,8 @@ body {
     border-radius: var(--element-border-radius);
     padding: var(--order-btn-padding);
     color: var(--white-text-color);
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 15px
 }
 
 .flex-space-between {
