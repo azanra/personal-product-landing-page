@@ -142,3 +142,7 @@ body {
     border-radius: var(--element-border-radius);
     margin-top: var(--element-container-gap);
 }
+
+.header-text {
+    font-size: var(--order-text-font-size);
+}
