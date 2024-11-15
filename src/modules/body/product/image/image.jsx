@@ -1,7 +1,7 @@
-function ProductImage() {
+function ProductImage({image}) {
     return (
         <div>
-            <div></div>
+            <div>{image}</div>
         </div>
     )
 }

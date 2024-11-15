@@ -1,12 +1,12 @@
-function ProductText() {
+function ProductText({name, description, price}) {
     return (
         <div>
             <div>
-                <h1></h1>
-                <p></p>
+                <h1>{name}</h1>
+                <p>{description}</p>
             </div>
             <div>
-                <p></p>
+                <p>{price}</p>
             </div>
         </div>
     )

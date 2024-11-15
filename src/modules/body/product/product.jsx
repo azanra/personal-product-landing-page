@@ -4,6 +4,7 @@ import { ProductText } from "./text/text";
 function ProductContainer() {
     const productArr = [
         {
+            id: 1,
             image: "",
             name: "Product",
             description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque magnam sunt ipsa, necessitatibus minima numquam. Laboriosam repudiandae reprehenderit facilis minus, illo harum sint quasi temporibus praesentium sit. Ratione, nam omnis?",
@@ -11,10 +12,20 @@ function ProductContainer() {
         }
     ]
     return (
-        <div>
-            <ProductImage/>
-            <ProductText/>
-        </div>
+            productArr.map((product, index) => {
+                return (
+                    <div key={product.id}>
+                        <ProductImage 
+                            image = {product.image}
+                        />
+                        <ProductText 
+                            name = {product.name}
+                            description = {product.description}
+                            price = {product.price}
+                        />
+                    </div>
+                )    
+            })
     )
 }
 
