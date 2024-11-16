@@ -26,6 +26,7 @@
     --order-text-weight: 600;
     --order-section-padding: 75px 100px;
     --order-font-size: 15px;
+    --order-btn-bg: rgb(138, 43, 226);
 
     --header-margin: 10px 0px 100px 0px; 
 
@@ -119,6 +120,14 @@ body {
     color: var(--white-text-color);
     font-weight: var(--order-text-weight);
     font-size: var(--order-font-size);
+}
+
+.order-btn:hover {
+    background-color: var(--order-btn-bg);
+}
+
+.order-btn:active {
+    color: var(--nav-active);
 }
 
 .flex-space-between {
