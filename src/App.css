@@ -89,6 +89,18 @@ body {
     margin: 15% 0 20% 35%;
 }
 
+.product-text-container {
+    padding: 25px;
+}
+
+.product-order-price {
+    width: 85px;
+}
+
+.product-header-text {
+    margin-bottom: 7.5%;
+}
+
 .colored-span-text {
     color: var(--order-color);
 }
