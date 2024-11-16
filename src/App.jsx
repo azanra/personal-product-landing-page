@@ -3,6 +3,7 @@ import { Header } from './modules/header/header';
 import { Order } from './modules/body/order/order';
 import { AboutContainer } from './modules/body/about/about';
 import { ProductContainer } from './modules/body/product/product';
+import { FooterContainer } from './modules/footer/footer';
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
         <Order/>
         <AboutContainer/>
         <ProductContainer/>
+        <FooterContainer/>
     </>
   )
 }

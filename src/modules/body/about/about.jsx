@@ -5,7 +5,7 @@ import "../../../App.css";
 function AboutContainer() {
     return (
         <div className="container-bg-color element-top-gap flex-space-between about-container border-radius">
-            <div>
+            <div className="flex-container flex-align-items">
                 <AboutImage/>
             </div>
             <div>

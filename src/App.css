@@ -63,6 +63,7 @@ body {
 
 .element-top-gap {
     margin-top: var(--element-top-margin);
+    margin-right: 20%;
 }
 
 .order-section {
