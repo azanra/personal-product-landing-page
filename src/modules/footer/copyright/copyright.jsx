@@ -1,6 +1,6 @@
 function CopyrightText() {
     return (
-        <div>
+        <div className="flex-align-items-ends copyright-margin">
             Copyright © Canasta 2024
         </div>
     )

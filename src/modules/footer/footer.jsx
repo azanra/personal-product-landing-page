@@ -4,7 +4,7 @@ import { OperationalText } from "./operational/operational";
 
 function FooterContainer() {
     return (
-        <div>
+        <div className="flex-container footer-container">
             <ContactText/>
             <CopyrightText/>
             <OperationalText/>

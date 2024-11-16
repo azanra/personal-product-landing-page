@@ -34,6 +34,8 @@
     --about-container-margin: 150px;
     --about-container-width: 80%;
     --about-padding: 75px 125px;
+
+    --footer-bg-color: rgb(52, 52, 52);
 }
 
 * {
@@ -133,6 +135,11 @@ body {
     align-items: center;
 }
 
+.flex-align-items-ends {
+    display: flex;
+    align-items: flex-end;
+}
+
 .nav-style {
     text-decoration: none;
     font-size: var(--nav-font-size);
@@ -169,4 +176,23 @@ body {
 
 .header-text {
     font-size: var(--order-text-font-size);
+}
+
+
+.footer-container {
+    background-color: var(--footer-bg-color);
+    color: white;
+    height: calc(var(--order-image-height) / 2);
+}
+
+.link-gap {
+    margin-top:25px;
+}
+
+.footer-margin {
+    margin-left: 200px;
+}
+
+.copyright-margin {
+    margin-left: 300px;
 }
