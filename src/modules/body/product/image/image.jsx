@@ -1,8 +1,6 @@
 function ProductImage({image}) {
     return (
-        <div>
-            <div>{image}</div>
-        </div>
+            <div className="order-image-width order-image product-image product-image border-radius">{image}</div>
     )
 }
 

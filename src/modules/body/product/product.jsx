@@ -14,15 +14,15 @@ function ProductContainer() {
     return (
             productArr.map((product, index) => {
                 return (
-                    <div key={product.id}>
-                        <ProductImage 
-                            image = {product.image}
-                        />
-                        <ProductText 
-                            name = {product.name}
-                            description = {product.description}
-                            price = {product.price}
-                        />
+                    <div key={product.id} className="order-image-width product-container container-bg-color order-image-height border-radius">
+                            <ProductImage 
+                                image = {product.image}
+                            />
+                            <ProductText 
+                                name = {product.name}
+                                description = {product.description}
+                                price = {product.price}
+                            />           
                     </div>
                 )    
             })
